@@ -10,7 +10,7 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/database"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/database"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/modules/postgres"

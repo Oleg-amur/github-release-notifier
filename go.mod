@@ -1,11 +1,11 @@
-module github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur
+module github.com/Oleg-amur/github-release-notifier
 
 go 1.25.3
 
-replace github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts => ./shared/contracts
+replace github.com/Oleg-amur/github-release-notifier/shared/contracts => ./shared/contracts
 
 require (
-	github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts v0.0.0-00010101000000-000000000000
+	github.com/Oleg-amur/github-release-notifier/shared/contracts v0.0.0-00010101000000-000000000000
 	github.com/jackc/pgx/v5 v5.10.0
 	google.golang.org/grpc v1.81.1
 )

@@ -5,7 +5,7 @@ package http_test
 import (
 	"net/http"
 
-	dto "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/transport/http"
+	dto "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/transport/http"
 )
 
 func (s *HTTPSuite) TestSubscribe_CreatesPendingSubscription() {

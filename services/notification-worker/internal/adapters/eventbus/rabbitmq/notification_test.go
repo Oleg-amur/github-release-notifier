@@ -8,7 +8,7 @@ import (
 	"log/slog"
 	"testing"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/events"
+	"github.com/Oleg-amur/github-release-notifier/shared/contracts/events"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

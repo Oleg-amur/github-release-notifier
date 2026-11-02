@@ -2,7 +2,7 @@
 
 package repository_test
 
-import subscriptionmodels "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
+import subscriptionmodels "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
 
 type createdSubscription struct {
 	subscriber   *subscriptionmodels.Subscriber

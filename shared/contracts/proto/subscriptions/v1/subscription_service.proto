@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package subscriptions.v1;
 
-option go_package = "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/gen/subscriptions/v1;subscriptionsv1";
+option go_package = "github.com/Oleg-amur/github-release-notifier/shared/contracts/gen/subscriptions/v1;subscriptionsv1";
 
 service SubscriptionService {
   rpc Subscribe(SubscribeRequest) returns (SubscribeResponse);

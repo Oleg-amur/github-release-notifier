@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/notification-worker/internal/adapters/email"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/notification-worker/internal/adapters/eventbus/rabbitmq"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/notification-worker/internal/config"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/notification-worker/internal/notification"
+	"github.com/Oleg-amur/github-release-notifier/services/notification-worker/internal/adapters/email"
+	"github.com/Oleg-amur/github-release-notifier/services/notification-worker/internal/adapters/eventbus/rabbitmq"
+	"github.com/Oleg-amur/github-release-notifier/services/notification-worker/internal/config"
+	"github.com/Oleg-amur/github-release-notifier/services/notification-worker/internal/notification"
 )
 
 const configPath = "configs/config.yaml"

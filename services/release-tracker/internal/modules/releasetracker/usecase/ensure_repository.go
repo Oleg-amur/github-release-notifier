@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/apperr"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/modules/releasetracker/domain"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/apperr"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/modules/releasetracker/domain"
 )
 
 type EnsureRepository struct {

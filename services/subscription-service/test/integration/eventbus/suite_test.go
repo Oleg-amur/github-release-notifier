@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/eventbus/rabbitmq"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/test/integration/testkit"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/eventbus/rabbitmq"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/test/integration/testkit"
 	amqp "github.com/rabbitmq/amqp091-go"
 	"github.com/stretchr/testify/suite"
 )

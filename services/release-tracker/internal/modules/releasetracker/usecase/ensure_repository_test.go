@@ -3,7 +3,7 @@ package usecase
 import (
 	"testing"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/apperr"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/apperr"
 )
 
 func TestEnsureRepositoryCreatesMissingRepository(t *testing.T) {

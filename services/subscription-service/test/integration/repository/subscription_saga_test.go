@@ -8,11 +8,11 @@ import (
 	"io"
 	"log/slog"
 
-	postgresqladapter "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/postgresql"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
-	subscriptionpostgresql "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/persistence/postgresql"
-	subscriptionworkflow "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/workflow"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/events"
+	postgresqladapter "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/postgresql"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
+	subscriptionpostgresql "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/persistence/postgresql"
+	subscriptionworkflow "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/workflow"
+	"github.com/Oleg-amur/github-release-notifier/shared/contracts/events"
 )
 
 func (s *RepositorySuite) TestTransactionManager_RollsBack() {

@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"testing"
 
-	httpapi "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/api/http"
-	repositorypostgresql "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/modules/releasetracker/persistence/postgresql"
-	releasetrackerusecase "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/modules/releasetracker/usecase"
+	httpapi "github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/api/http"
+	repositorypostgresql "github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/modules/releasetracker/persistence/postgresql"
+	releasetrackerusecase "github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/modules/releasetracker/usecase"
 )
 
 type App struct {

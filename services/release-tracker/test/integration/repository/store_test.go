@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/apperr"
-	repositorypostgresql "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/modules/releasetracker/persistence/postgresql"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/test/integration/testkit"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/apperr"
+	repositorypostgresql "github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/modules/releasetracker/persistence/postgresql"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/test/integration/testkit"
 )
 
 func TestRepositoryStoreLifecycle(t *testing.T) {

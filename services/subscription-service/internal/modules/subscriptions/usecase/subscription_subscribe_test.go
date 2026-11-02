@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/apperr"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/apperr"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
 )
 
 func TestSubscribeToRepository_Execute(t *testing.T) {

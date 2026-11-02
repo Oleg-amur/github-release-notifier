@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/test/integration/testkit"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/test/integration/testkit"
 	"github.com/stretchr/testify/suite"
 )
 

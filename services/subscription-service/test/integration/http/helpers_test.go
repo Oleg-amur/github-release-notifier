@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"testing"
 
-	dto "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/transport/http"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/events"
+	dto "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/transport/http"
+	"github.com/Oleg-amur/github-release-notifier/shared/contracts/events"
 )
 
 func (s *HTTPSuite) postJSON(path string, body any, wantStatus int) []byte {

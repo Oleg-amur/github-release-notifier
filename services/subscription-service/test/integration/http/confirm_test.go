@@ -5,9 +5,9 @@ package http_test
 import (
 	"net/http"
 
-	subscriptionmodels "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
-	dto "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/transport/http"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/test/integration/testkit"
+	subscriptionmodels "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
+	dto "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/transport/http"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/test/integration/testkit"
 )
 
 func (s *HTTPSuite) TestConfirm_ActivatesSubscription() {

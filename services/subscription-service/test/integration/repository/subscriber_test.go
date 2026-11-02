@@ -2,7 +2,7 @@
 
 package repository_test
 
-import "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/apperr"
+import "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/apperr"
 
 func (s *RepositorySuite) TestSubscriberStore_CreateAndGetByEmail() {
 	created, err := s.subscriberStore.Create(s.ctx, "user@example.com")

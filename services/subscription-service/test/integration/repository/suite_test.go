@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	postgresqladapter "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/postgresql"
-	subscriptionpostgresql "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/persistence/postgresql"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/test/integration/testkit"
+	postgresqladapter "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/postgresql"
+	subscriptionpostgresql "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/persistence/postgresql"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/test/integration/testkit"
 	"github.com/stretchr/testify/suite"
 )
 

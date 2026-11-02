@@ -4,9 +4,9 @@ import (
 	"log/slog"
 	"net/http"
 
-	subscriptionhttp "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/transport/http"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/observability"
-	webstatic "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/static"
+	subscriptionhttp "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/transport/http"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/observability"
+	webstatic "github.com/Oleg-amur/github-release-notifier/services/subscription-service/static"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

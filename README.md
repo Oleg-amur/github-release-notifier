@@ -1,6 +1,6 @@
 # GitHub Release Notifier
 
-A Go-based service that monitors GitHub repositories for new releases and notifies subscribers via email. It provides both REST and gRPC interfaces for subscription management.
+A Go application that monitors GitHub releases and emails subscribers when a new version is published. Three services handle subscriptions, release tracking, and email delivery, using PostgreSQL, RabbitMQ, REST, and gRPC.
 
 ## Features
 
@@ -23,6 +23,7 @@ A Go-based service that monitors GitHub repositories for new releases and notifi
 
 - **Language**: [Go](https://go.dev/) (1.25+)
 - **Database**: [PostgreSQL](https://www.postgresql.org/)
+- **Messaging**: [RabbitMQ](https://www.rabbitmq.com/)
 - **Communication**: [gRPC](https://grpc.io/), [net/http](https://pkg.go.dev/net/http)
 - **Configuration**: [cleanenv](https://github.com/ilyakaznacheev/cleanenv)
 - **Metrics**: [Prometheus](https://prometheus.io/)
@@ -53,22 +54,22 @@ Key configuration options:
 
 ### Running with Docker Compose
 
-The easiest way to run the service along with its core dependencies (PostgreSQL and Mailpit):
+Run the three services with PostgreSQL, RabbitMQ, and Mailpit:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur.git
-   cd software-engineering-school-6-0-Oleg-amur
+   git clone https://github.com/Oleg-amur/github-release-notifier.git
+   cd github-release-notifier
    ```
 
-2. Copy `.env.example` to `.env` and adjust if necessary:
+2. Copy `.env.example` to `.env`. Replace `GITHUB_TOKEN=your_github_token_here` with a GitHub token, or leave its value empty to use unauthenticated requests:
    ```bash
    cp .env.example .env
    ```
 
 3. Start the services:
    ```bash
-   docker compose up -d
+   docker compose up --build -d
    ```
 
 The service will be available at:
@@ -78,6 +79,8 @@ The service will be available at:
 - Mailpit UI (Email testing): `http://localhost:8025`
 - Subscription Service Metrics: `http://localhost:8080/metrics`
 - Release Tracker Metrics: `http://localhost:8081/metrics`
+
+Open `http://localhost:8080` to subscribe to a repository. Find the confirmation email in Mailpit at `http://localhost:8025` and follow its link. Future releases trigger emails to confirmed subscribers; the default scan interval is one minute. Mailpit captures local emails so the demo does not require an external SMTP account.
 
 To start the full observability stack as well:
 
@@ -124,7 +127,7 @@ The `/health` endpoint checks database connectivity and returns `200 OK` when Po
 
 ### REST API
 
-The API documentation is available in Swagger format at `api/swagger.yaml`.
+The API documentation is available in Swagger format at [`services/subscription-service/api/swagger.yaml`](services/subscription-service/api/swagger.yaml).
 
 **Endpoints:**
 - `POST /api/v1/subscribe`: Subscribe an email to a GitHub repository.
@@ -164,7 +167,8 @@ The gRPC definition is available at `shared/contracts/proto/subscriptions/v1/sub
 
 ```text
 ├── shared/
-│   └── contracts/             # Shared event contracts module
+│   ├── contracts/             # Shared event and protobuf contracts
+│   └── messaging/             # Shared RabbitMQ infrastructure
 ├── services/
 │   ├── subscription-service/  # Subscription API and subscription database
 │   ├── release-tracker/       # GitHub scanner and repository database

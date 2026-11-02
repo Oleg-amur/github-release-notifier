@@ -5,7 +5,7 @@ package grpc_test
 import (
 	"context"
 
-	pb "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/gen/subscriptions/v1"
+	pb "github.com/Oleg-amur/github-release-notifier/shared/contracts/gen/subscriptions/v1"
 	"google.golang.org/grpc/codes"
 )
 

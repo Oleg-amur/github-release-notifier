@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/modules/releasetracker/domain"
-	subscriptionsv1 "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/gen/subscriptions/v1"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/modules/releasetracker/domain"
+	subscriptionsv1 "github.com/Oleg-amur/github-release-notifier/shared/contracts/gen/subscriptions/v1"
 )
 
 type Client struct {

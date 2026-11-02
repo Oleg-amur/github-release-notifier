@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/apperr"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/apperr"
 )
 
 type Client struct {

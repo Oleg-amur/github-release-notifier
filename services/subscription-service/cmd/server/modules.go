@@ -6,14 +6,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/eventbus/rabbitmq"
-	postgresqladapter "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/postgresql"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/releasetracker"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/config"
-	subscriptionpostgresql "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/persistence/postgresql"
-	subscriptionusecase "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/usecase"
-	subscriptionworkflow "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/workflow"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/worker"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/eventbus/rabbitmq"
+	postgresqladapter "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/postgresql"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/releasetracker"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/config"
+	subscriptionpostgresql "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/persistence/postgresql"
+	subscriptionusecase "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/usecase"
+	subscriptionworkflow "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/workflow"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/worker"
 )
 
 type applicationModules struct {

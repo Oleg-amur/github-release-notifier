@@ -5,10 +5,10 @@ import (
 	"errors"
 	"log/slog"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/apperr"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
-	subscriptionusecase "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/usecase"
-	pb "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/gen/subscriptions/v1"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/apperr"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
+	subscriptionusecase "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/usecase"
+	pb "github.com/Oleg-amur/github-release-notifier/shared/contracts/gen/subscriptions/v1"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

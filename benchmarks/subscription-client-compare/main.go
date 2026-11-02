@@ -15,7 +15,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	subscriptionsv1 "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/gen/subscriptions/v1"
+	subscriptionsv1 "github.com/Oleg-amur/github-release-notifier/shared/contracts/gen/subscriptions/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

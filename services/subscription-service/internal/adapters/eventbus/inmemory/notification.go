@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/events"
+	"github.com/Oleg-amur/github-release-notifier/shared/contracts/events"
 )
 
 var ErrQueueFull = errors.New("in-memory event queue is full")

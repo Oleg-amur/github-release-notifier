@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/apperr"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/apperr"
 )
 
 func TestSubscribeRequest_Validate(t *testing.T) {

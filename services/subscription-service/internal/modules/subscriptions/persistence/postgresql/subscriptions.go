@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"errors"
 
-	postgresqladapter "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/postgresql"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/apperr"
-	subscriptionmodels "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
+	postgresqladapter "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/postgresql"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/apperr"
+	subscriptionmodels "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
 )
 
 type SubscriptionStore struct {

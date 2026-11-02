@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/migrations"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/migrations"
 	_ "github.com/jackc/pgx/v5/stdlib"
 )
 

@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"net/http"
 
-	releasetrackerhttp "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/modules/releasetracker/transport/http"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/observability"
+	releasetrackerhttp "github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/modules/releasetracker/transport/http"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/observability"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

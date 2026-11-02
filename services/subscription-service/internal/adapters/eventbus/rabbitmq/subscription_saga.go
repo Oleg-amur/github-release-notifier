@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/events"
-	sharedrabbitmq "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/messaging/rabbitmq"
+	"github.com/Oleg-amur/github-release-notifier/shared/contracts/events"
+	sharedrabbitmq "github.com/Oleg-amur/github-release-notifier/shared/messaging/rabbitmq"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	postgresqladapter "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/adapters/postgresql"
-	subscriptiondomain "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
+	postgresqladapter "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/adapters/postgresql"
+	subscriptiondomain "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
 )
 
 type SubscriptionSagaStore struct {

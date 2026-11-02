@@ -1,10 +1,10 @@
-module github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker
+module github.com/Oleg-amur/github-release-notifier/services/release-tracker
 
 go 1.25.3
 
 require (
-	github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts v0.0.0
-	github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/messaging v0.0.0
+	github.com/Oleg-amur/github-release-notifier/shared/contracts v0.0.0
+	github.com/Oleg-amur/github-release-notifier/shared/messaging v0.0.0
 	github.com/google/uuid v1.6.0
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/jackc/pgx/v5 v5.9.1
@@ -85,6 +85,6 @@ require (
 	olympos.io/encoding/edn v0.0.0-20201019073823-d3554ca0b0a3 // indirect
 )
 
-replace github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts => ../../shared/contracts
+replace github.com/Oleg-amur/github-release-notifier/shared/contracts => ../../shared/contracts
 
-replace github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/messaging => ../../shared/messaging
+replace github.com/Oleg-amur/github-release-notifier/shared/messaging => ../../shared/messaging

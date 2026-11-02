@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
 )
 
 func TestListSubscriptions_Execute(t *testing.T) {

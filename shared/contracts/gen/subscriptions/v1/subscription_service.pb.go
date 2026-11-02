@@ -601,7 +601,7 @@ const file_subscriptions_v1_subscription_service_proto_rawDesc = "" +
 	"\aConfirm\x12 .subscriptions.v1.ConfirmRequest\x1a!.subscriptions.v1.ConfirmResponse\x12Z\n" +
 	"\vUnsubscribe\x12$.subscriptions.v1.UnsubscribeRequest\x1a%.subscriptions.v1.UnsubscribeResponse\x12i\n" +
 	"\x10GetSubscriptions\x12).subscriptions.v1.GetSubscriptionsRequest\x1a*.subscriptions.v1.GetSubscriptionsResponse\x12\xa2\x01\n" +
-	"#ListActiveSubscriptionsByRepository\x12<.subscriptions.v1.ListActiveSubscriptionsByRepositoryRequest\x1a=.subscriptions.v1.ListActiveSubscriptionsByRepositoryResponseB\x81\x01Z\x7fgithub.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/gen/subscriptions/v1;subscriptionsv1b\x06proto3"
+	"#ListActiveSubscriptionsByRepository\x12<.subscriptions.v1.ListActiveSubscriptionsByRepositoryRequest\x1a=.subscriptions.v1.ListActiveSubscriptionsByRepositoryResponseBdZbgithub.com/Oleg-amur/github-release-notifier/shared/contracts/gen/subscriptions/v1;subscriptionsv1b\x06proto3"
 
 var (
 	file_subscriptions_v1_subscription_service_proto_rawDescOnce sync.Once

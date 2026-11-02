@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/test/integration/testkit"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/test/integration/testkit"
 )
 
 func TestEnsureAndGetRepository(t *testing.T) {

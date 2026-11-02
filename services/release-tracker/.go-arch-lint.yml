@@ -27,7 +27,7 @@ components:
   transport: { in: internal/modules/releasetracker/transport/** }
 
 vendors:
-  shared-contract-events: { in: github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/events }
+  shared-contract-events: { in: github.com/Oleg-amur/github-release-notifier/shared/contracts/events }
   uuid: { in: github.com/google/uuid }
 
 deps:

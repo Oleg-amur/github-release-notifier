@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/apperr"
-	subscriptiondomain "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/domain"
-	subscriptionusecase "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/usecase"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/apperr"
+	subscriptiondomain "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/domain"
+	subscriptionusecase "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/usecase"
 )
 
 type SubscriptionUsecases interface {

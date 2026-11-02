@@ -1,4 +1,4 @@
-module github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/messaging
+module github.com/Oleg-amur/github-release-notifier/shared/messaging
 
 go 1.25.3
 

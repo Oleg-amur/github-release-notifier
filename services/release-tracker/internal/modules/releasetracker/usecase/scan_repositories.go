@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/apperr"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/release-tracker/internal/modules/releasetracker/domain"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/events"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/apperr"
+	"github.com/Oleg-amur/github-release-notifier/services/release-tracker/internal/modules/releasetracker/domain"
+	"github.com/Oleg-amur/github-release-notifier/shared/contracts/events"
 	"github.com/google/uuid"
 )
 

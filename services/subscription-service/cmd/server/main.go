@@ -13,12 +13,12 @@ import (
 	"syscall"
 	"time"
 
-	httpapi "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/api/http"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/config"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/database"
-	subscriptiongrpc "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/modules/subscriptions/transport/grpc"
-	"github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/services/subscription-service/internal/observability"
-	subscriptionsv1 "github.com/GenesisEducationKyiv/software-engineering-school-6-0-Oleg-amur/shared/contracts/gen/subscriptions/v1"
+	httpapi "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/api/http"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/config"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/database"
+	subscriptiongrpc "github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/modules/subscriptions/transport/grpc"
+	"github.com/Oleg-amur/github-release-notifier/services/subscription-service/internal/observability"
+	subscriptionsv1 "github.com/Oleg-amur/github-release-notifier/shared/contracts/gen/subscriptions/v1"
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
 )
